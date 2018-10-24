@@ -3718,7 +3718,7 @@ buildsubmenus_horizontal();
 	        <% end if  %>
             <img src="images/form_iconSmall.gif" border="0">  
 	        <%if cur_access = "V" or cur_status = "Group Lock" THEN%>
-	            <font color="#777777">
+	            <font color="#777778">
                     
                      <%if cur_type = "DHSP" then %>
 	                     <%=cur_form_name%>&nbsp; <%=cur_last_update%>
