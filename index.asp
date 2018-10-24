@@ -3092,7 +3092,7 @@ buildsubmenus_horizontal();
 	                    <%if cur_real_due_date = "01/01/1900" then %>
                         <td><b><font color="#006666"></b></font></td>
                         <% else %>
-                          <td><b><font color="#006666"><%=cur_real_due_date%></b></font></td>
+                          <td><b><font color="#006644"><%=cur_real_due_date%></b></font></td>
                         <%end if %>
 	                    <td><b><font color="#006666"><%=rsAlerts("Creator_Name")%></b></font></td>
 	                </tr>
@@ -3718,7 +3718,7 @@ buildsubmenus_horizontal();
 	        <% end if  %>
             <img src="images/form_iconSmall.gif" border="0">  
 	        <%if cur_access = "V" or cur_status = "Group Lock" THEN%>
-	            <font color="#777778">
+	            <font color="#777777">
                     
                      <%if cur_type = "DHSP" then %>
 	                     <%=cur_form_name%>&nbsp; <%=cur_last_update%>
